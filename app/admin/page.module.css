@@ -1,0 +1,58 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.admin_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 88px;
+    margin-left: 352px;
+    margin-right: 88px;
+}
+
+/* Sidebar */
+.sidebar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    color: #ccc;
+    background-color: #444;
+    width: 264px;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bottom_menu {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+
+.admin_list {
+    padding-top: 15px;
+    list-style: none;
+}
+
+.admin_item {
+    margin: 0 auto;
+    padding: 12px;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    border: none;
+    margin-top: 15px;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+.admin_item:hover {
+    color: #666;
+    background-color: aliceblue;
+}
+
+/* Navigation bar */

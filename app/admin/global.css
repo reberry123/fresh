@@ -1,0 +1,36 @@
+input[type='checkbox'] {
+    display: none;
+}
+
+input[type='checkbox'] + label {  /* 체크박스 만들기 */
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: middle;
+    user-select: none /* 드래그 금지 */
+}
+
+input[type='checkbox']:checked + label {  /* 체크되었을 때 */
+    border: 1.5px solid #1299dc;
+    background-repeat: no-repeat;
+    background-image: url("/public/check-resized.png");
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    height: 50px;
+    text-align: center;
+    color: #666;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+th {
+    border-bottom: 1px double #ccc;
+    background-color: rgb(219, 233, 245);
+    font-size: 18px;
+}

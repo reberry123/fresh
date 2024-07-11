@@ -1,0 +1,31 @@
+.signup_form {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 728px;
+    height: 368px;
+    border-width: 1px;
+    border-color: black;
+}
+
+.form_control {
+    color: #777;
+    background-color: #dddddd;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 554px;
+    height: 64px;
+    border: none;
+    font-size: 24px;
+}
+
+.form_submit {
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    margin-top: 20px;
+    width: 134px;
+    height: 48px;
+    font-size: 20px;
+}

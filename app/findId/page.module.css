@@ -1,0 +1,44 @@
+.find_form {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 728px;
+    height: 368px;
+    border-width: 1px;
+    border-color: black;
+}
+
+.find_area {
+    width: 100%;
+    height: 100%;
+}
+
+.form_control {
+    color: #777;
+    background-color: #dddddd;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.form_submit {
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+    height: 64px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form_submit:hover {
+    cursor: pointer;
+}

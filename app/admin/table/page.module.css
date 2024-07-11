@@ -1,0 +1,14 @@
+.table_container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.table_form {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    border-width: 1px;
+    border-color: black;
+}

@@ -1,0 +1,86 @@
+.login_form {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 728px;
+    height: 368px;
+    border-width: 1px;
+    border-color: black;
+}
+
+.login_area {
+    width: 100%;
+    height: 100%;
+}
+
+.form_control {
+    color: #777;
+    background-color: #dddddd;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.login_setting {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.account_area {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bar {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-left: 1.5px solid #cccccc;
+}
+
+.form_submit {
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+    height: 64px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form_submit:hover {
+    cursor: pointer;
+}
+
+.form_naver {
+    width: 100%;
+    height: 64px;
+    background-color: #04c35c;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form_naver:hover {
+    cursor: pointer;
+}
+
+.img {
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+}
