@@ -27,7 +27,7 @@ jobs:
 
       - name: Deploy to Github Pages
         run: |
-          touch out/.nojekyll
+          touch out/.nojekyll -f
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add out
